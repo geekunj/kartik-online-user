@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.AddressDetail"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_marginTop="28dp"
+        android:hint="FULL ADDRESS">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_full_address"
+            android:drawableStart="@drawable/ic_house"
+            android:drawablePadding="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="26dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="LANDMARK">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_landmark"
+            android:drawableStart="@drawable/ic_location_pointer"
+            android:drawablePadding="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="26dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="CITY">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_city"
+            android:drawableStart="@drawable/ic_hotel"
+            android:drawablePadding="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="26dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="POSTAL CODE">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_postal_code"
+            android:drawableStart="@drawable/ic_post_office"
+            android:drawablePadding="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="26dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="TRANSPORT NAME">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_transport_name"
+            android:drawableStart="@drawable/ic_shipped"
+            android:drawablePadding="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="26dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="TRANSPORT ADDRESS">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_transport_address"
+            android:drawableStart="@drawable/ic_notebook"
+            android:drawablePadding="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="26dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="TRANSPORT No. / MARKA">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_private_marka"
+            android:drawableStart="@drawable/ic_shipped"
+            android:drawablePadding="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="26dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons_bg"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="SKIP"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons_bg"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</LinearLayout>

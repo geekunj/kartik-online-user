@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.CompanyDetail"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_marginTop="28dp"
+        android:hint="SHOP NAME">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_shop_name"
+            android:drawableStart="@drawable/ic_online_store"
+            android:drawablePadding="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="26dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="REPRESENTATIVE NAME">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_represnti_name"
+            android:drawableStart="@drawable/ic_employee"
+            android:drawablePadding="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="26dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="WHATSAPP NUMBER">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_whatsapp_number"
+            android:drawableStart="@drawable/ic_whatsapp"
+            android:drawablePadding="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="26dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="OTHER NUMBER">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_other_number"
+            android:drawableStart="@drawable/ic_smartphone"
+            android:drawablePadding="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="26dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="GST NO.">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_gst_no"
+            android:drawableStart="@drawable/ic_get_money"
+            android:drawablePadding="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="26dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:hint="EMAIL ID">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_email_id"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="26dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons_bg"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="SKIP"
+        android:textColor="@android:color/white"
+        android:background="@drawable/buttons_bg"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</LinearLayout>
